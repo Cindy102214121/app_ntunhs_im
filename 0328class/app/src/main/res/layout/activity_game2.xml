@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".game2">
+    <Button
+        android:id="@+id/btnBacktoFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+<TextView
+    android:id="@+id/name"
+    android:layout_width="match_parent"
+    android:layout_height="74dp"
+    android:text="rock paper scissors"
+    android:textAlignment="center"
+    android:textSize="10pt" />
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="404dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/computer"
+            android:layout_width="194dp"
+            android:layout_height="76dp"
+            android:text="computer"
+            android:textAlignment="center"
+            android:textSize="10pt" />
+
+        <TextView
+            android:id="@+id/player"
+            android:layout_width="194dp"
+            android:layout_height="match_parent"
+            android:text="player"
+            android:textAlignment="center"
+            android:textSize="10pt" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="334dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtcom"
+                android:layout_width="185dp"
+                android:layout_height="61dp"
+                android:text="wait palyer"
+                android:textAlignment="center"
+                android:textSize="10pt" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:srcCompat="@tools:sample/avatars" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--                <Button-->
+            <!--                    android:id="@+id/btnpaper"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:text="paper"-->
+            <!--                    tools:ignore="TouchTargetSizeCheck" />-->
+
+            <!--                <Button-->
+            <!--                    android:id="@+id/btnrock"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:text="rock" />-->
+
+            <!--                <Button-->
+            <!--                    android:id="@+id/btnscissors"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:text="scissors" />-->
+
+            <ImageButton
+                android:id="@+id/imbtnscissors"
+                android:layout_width="194dp"
+                android:layout_height="100dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/scissor" />
+
+            <ImageButton
+                android:id="@+id/imbtnpaper"
+                android:layout_width="194dp"
+                android:layout_height="100dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/paper" />
+
+            <ImageButton
+                android:id="@+id/imbtnrock"
+                android:layout_width="194dp"
+                android:layout_height="100dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/rock" />
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:baselineAligned="false">
+
+    </TableRow>
+</TableLayout>
+
+<TextView
+    android:id="@+id/txtResult"
+    android:layout_width="match_parent"
+    android:layout_height="66dp"
+    android:text="play choose a button"
+    android:textAlignment="center"
+    android:textSize="15pt" />
+
+</LinearLayout>

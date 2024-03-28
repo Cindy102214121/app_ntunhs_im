@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">0328class</string>
+    <string name="reset">RESET</string>
+    <string name="guess">GUESS</string>
+    <string name="number">Input your number</string>
+    <string name="correct">Correct</string>
+    <string name="play_choose_a_button">play choose a button</string>
+    <string name="paper">paper</string>
+    <string name="rock">rock</string>
+    <string name="scissors">scissors</string>
+    <string name="wait_player">wait player</string>
+    <string name="player">player</string>
+    <string name="computer">computer</string>
+    <string name="rock_paper_scissors">rock paper scissors</string>
+    <string name="win">you Win?!?!</string>
+    <string name="lose">you lose!!!</string>
+    <string name="draw">draw</string>
+</resources>
